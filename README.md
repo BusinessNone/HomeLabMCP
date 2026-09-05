@@ -45,11 +45,11 @@ Bridges the [BlueBubbles](https://bluebubbles.app) REST API (iMessage on macOS) 
 
 ## Inventory and home operations
 
-### homebox-shim
+### [homebox-shim](https://github.com/BusinessNone/HomeBoxMCP)
 
-In-house MCP server for [Homebox](https://homebox.software) inventory management. Sixteen read and write tools, stateless streamable HTTP, zero npm dependencies. Written after the available third-party option proved read-only and outdated.
+In-house MCP server for [Homebox](https://homebox.software) inventory management. Sixteen read and write tools, stateless streamable HTTP, zero npm dependencies. Written from scratch after a third-party Homebox MCP server, forked and run locally first, turned out to be read-only and outdated.
 
-**Status:** Mature, 34 smoke assertions in the test suite. Cleanest candidate for the first public release: no personal-data entanglement.
+**Status:** Mature, 34 smoke assertions in the test suite. Public and released.
 
 ## In development
 
@@ -61,7 +61,7 @@ Exposes LazyLibrarian as a set of MCP tools. Currently at PRD stage.
 
 ## Prior art and credits
 
-- **homeboxmcp** — an earlier third-party Homebox MCP server. Not part of this collection; credited as prior art that `homebox-shim` was written to replace.
+- **homebox-mcp** — a third-party Homebox MCP server, forked and used locally before `homebox-shim` was written. Not part of this collection and not authored here; credited as the prior art `homebox-shim` replaced. Its read-only tool surface is the reason a from-scratch server exists.
 - **loglux/whatsapp-mcp-stream** and **metaember/bluebubbles-mcp** — upstream projects the WhatsApp and BlueBubbles bridges build on.
 
 ## Status legend
